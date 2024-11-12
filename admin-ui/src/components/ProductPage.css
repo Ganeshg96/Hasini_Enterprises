@@ -1,0 +1,140 @@
+.product-page {
+    padding: 20px;
+    background-color: #f8d2d2;
+    font-family: Arial, sans-serif;
+  }
+  
+  .back-button {
+    background-color: #3b59f9;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #6e2b6e;
+  }
+  
+  .product-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-table th,
+  .product-table td {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .product-table th {
+    background-color: #d1d1d1;
+    color: #333;
+  }
+  
+  .product-table .product-row {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .product-row:last-child {
+    border-bottom: none;
+  }
+  
+  .product-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  
+  .button-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-btn,
+  .remove-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  
+  .edit-btn {
+    background-color: #3b59f9;
+  }
+  
+  .remove-btn {
+    background-color: #f32013;
+  }
+  .nav-button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #3b59f9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f8d2d2;
+  }
+  
+  .title-row {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .back-button {
+    background-color: #3b59f9;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 15px;
+  }
+  
+  .product-title {
+    font-size: 24px;
+    color: #7d2f8d; /* Adjust color as needed */
+    font-weight: bold;
+  }
+  
+  .search-input {
+    padding: 8px 12px;
+    margin: 0 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    flex: 1;
+  }
+  
+  .logout-button {
+    background-color: #3b59f9;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+      

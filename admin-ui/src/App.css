@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f7e2e2;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+.logout-btn {
+  background-color: #0056b3;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.product-category {
+  margin-top: 20px;
+}
+
+.back-btn {
+  font-size: 0.9em;
+  background-color: #ccccff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+h2 {
+  color: #6a0dad;
+  margin: 10px 0;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+thead th {
+  background-color: #6a0dad;
+  color: white;
+  padding: 10px;
+}
+
+tbody td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.edit-btn, .remove-btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.remove-btn {
+  background-color: #ff4d4d;
+  color: white;
+  margin-left: 5px;
+}
+
+.edit-btn,
+.remove-btn {
+  display: block;
+  margin-bottom: 5px; /* Space between buttons */
+}
